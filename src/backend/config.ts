@@ -1,3 +1,7 @@
+import dotenv from 'dotenv'
+
+dotenv.config()
+
 export const config = {
   evm: {
     chain: process.env.EVM_CHAIN!,

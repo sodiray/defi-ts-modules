@@ -67,7 +67,7 @@ export const createGMXClient = ({
    *
    * @returns a list of positions
    */
-  const listPositions = async () => {
+  const listPositions = async ({}: {}) => {
     // TODO: List orders from GMX contract onchain
     return {
       positions: [] // TODO
